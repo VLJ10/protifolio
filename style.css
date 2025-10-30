@@ -1,0 +1,46 @@
+:root {
+    --color-background: #F9FAFB; /* fundo quase branco */
+    --color-surface: #FFFFFF;    /* blocos, cards, seções */
+    --color-primary: #111827;    /* preto suave, para textos */
+    --color-secondary: #6B7280;  /* cinza neutro para subtítulos */
+    --color-accent: #2563EB;     /* azul suave para destaques ou links */
+    --color-border: #E5E7EB;     /* linhas sutis e divisores */
+    --color-hover: #1E40AF;      /* azul mais forte para hover */
+  }
+  
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--color-background);
+    height: 100vh;
+    font-family: 'Rubik', sans-serif;
+}
+
+header{
+    display: flex;
+    background-color: aquamarine;
+    height: 150px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header h1{
+    font-size: 3rem;
+}
+main{
+    height: 80%;
+    width: 100%;
+    background-color: blueviolet;
+}
+.section1 {
+    height: 600px;
+    width: 100%;
+    background-color: red;
+}
+a {
+    color: var(--color-accent);
+}
