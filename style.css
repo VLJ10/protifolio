@@ -15,7 +15,7 @@
 }
 body{
     background-color: var(--color-background);
-    height: 165vh;
+    height: 215vh;
     font-family: 'Rubik', sans-serif;
     display: flex;
     flex-direction: column;
@@ -24,9 +24,9 @@ body{
 header{
     display: flex;
     background-color: aquamarine;
-    height: 150px;
+    height: 240px;
     width: 100%;
-    flex-direction: column;
+
     align-items: center;
     justify-content: center;
     color: var(--color-primary);
@@ -34,9 +34,19 @@ header{
 header h1{
     font-size: 3rem;
 }
+header p{
+    width: 600px;
+}
+header img{
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: #000000 4px solid;
+    margin-left: 350px;
+}
 
 main{
-    height: 90%;
+    height: 85%;
     width: 100%;
 
     display: flex;
@@ -95,10 +105,11 @@ main{
     font-size: 1.4rem;
     display: flex; 
     justify-content: space-between;
-    width: 300px;
+    width: 350px;
 }
 .listas ul li img{
    width: 30px;
+   height: auto;
 }
 
 .section2 {
